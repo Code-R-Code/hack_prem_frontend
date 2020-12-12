@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+ Used React as front-end library and React-Hooks for state management.
+ Please look up package.json for extra information on packages used.
+
 ## Available Scripts
 
 In the project directory, you can run:
