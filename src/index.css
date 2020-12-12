@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Logo Font */
+@font-face {
+	font-family: 'Logo';
+	font-weight: 30;
+	src: local('Logo'), url(../src/assets/fonts/MajorMonoDisplay-Regular.ttf) format('truetype');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Text Font */
+
+@font-face {
+	font-family: 'Text_1';
+	font-weight: 2900;
+	src: local('Text_1'), url(../src/assets/fonts/Spartan-VariableFont_wght.ttf) format('truetype');
+}
+
+/* Styling fonts */
+
+.logo-name {
+	font-family: 'Logo', cursive;
+	letter-spacing: 10px;
+	font-size: 23px;
+}
+
+.heading-match {
+	font-family: 'Logo', cursive;
+	letter-spacing: 8px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.nav-texts {
+	font-family: 'Text_1', cursive;
+	letter-spacing: 6px;
+	font-size: 13px;
+}
+
+.text-1 {
+	font-family: 'Text_1', cursive;
+	letter-spacing: 2px;
+}
+
+.table-height {
+	height: 60vh;
+}
+
+.card-board {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	border-radius: 5px;
+	padding: 2px 16px; /* 5px rounded corners */
+}
+
+.card-enter-team {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	border-radius: 5px;
+	padding: 2px 0px; /* 5px rounded corners */
+}
+
+hr.separator {
+	border: 1px solid black;
+	width: 70vw;
 }
